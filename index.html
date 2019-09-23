@@ -1,0 +1,606 @@
+﻿
+<html lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+	<title>Anshu Kumar</title>
+	<meta name="description" content="Anshu Kumar -Web Developer: Resume & Portfolio">
+    <link rel="shortcut icon" href="images/fp_icon.ico" type="image/x-icon" />
+    <link rel="preload" href="css/fakeLoader.css" as="style" />
+    <link rel="preload" href="css/global.css" as="style" />
+    <link rel="preload" href="js/fakeLoader.js" as="script" />
+	<link rel="image_src" href="images/cover.jpg" />
+    <link type="text/css" media="screen" rel="stylesheet" href="awwwards.css" />    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/solarsyst.css">
+    <link rel="stylesheet" href="css/audio.css" />
+    <link rel="stylesheet" href="css/global.css" media="screen, projection" type="text/css" />
+    <link rel="stylesheet" href="css/fakeLoader.css" />
+	<script src="ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="js/skrollr.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/Modernizr/modernizr.custom.39580.js"></script>
+    <script src="js/three/three.js"></script>
+    <script src="js/three/CanvasRenderer.js"></script>
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="js/angular/angular.js"></script>
+    <script src="js/angular-ks-stereo.js"></script>
+    <script src="js/audio.js"></script>
+    <script src='cdn.rawgit.com/hmongouachon/mgGlitch/master/src/mgGlitch.min.js'></script>
+    <script src="js/index.js"></script>
+    <script src="js/fakeLoader.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#specs_thumb_01").click(function(){
+            $("#specs_02").fadeTo("slow" , 0);
+            $("#specs_visual_02").fadeTo("slow" , 0);
+            $("#specs_03").fadeTo("slow" , 0);
+            $("#specs_visual_03").fadeTo("slow" , 0);
+            $("#specs_01").fadeTo("slow" , 1);
+            $("#specs_visual_01").fadeTo("slow" , 1);
+            $("#arrow_01").show();
+            $("#arrow_02").hide();
+            $("#arrow_03").hide();
+            $("#specs_thumb_01").css("border-width", "5px");
+            $("#specs_thumb_02").css("border-width", "0px");
+            $("#specs_thumb_03").css("border-width", "0px");
+        });
+    });
+    $(document).ready(function(){
+        $("#specs_thumb_02").click(function(){
+            $("#specs_01").fadeTo("slow" , 0);
+            $("#specs_visual_01").fadeTo("slow" , 0);
+            $("#specs_03").fadeTo("slow" , 0);
+            $("#specs_visual_03").fadeTo("slow" , 0);
+            $("#specs_02").fadeTo("slow" , 1);
+            $("#specs_visual_02").fadeTo("slow" , 1);
+            $("#arrow_01").hide();
+            $("#arrow_02").show();
+            $("#arrow_03").hide();
+            $("#specs_thumb_01").css("border-width", "0px");
+            $("#specs_thumb_02").css("border-width", "5px");
+            $("#specs_thumb_03").css("border-width", "0px");
+        });
+    });
+    $(document).ready(function(){
+        $("#specs_thumb_03").click(function(){
+            $("#specs_01").fadeTo("slow" , 0);
+            $("#specs_visual_01").fadeTo("slow" , 0);
+            $("#specs_02").fadeTo("slow" , 0);
+            $("#specs_visual_02").fadeTo("slow" , 0);
+            $("#specs_03").fadeTo("slow" , 1);
+            $("#specs_visual_03").fadeTo("slow" , 1);
+            $("#arrow_01").hide();
+            $("#arrow_02").hide();
+            $("#arrow_03").show();
+            $("#specs_thumb_01").css("border-width", "0px");
+            $("#specs_thumb_02").css("border-width", "0px");
+            $("#specs_thumb_03").css("border-width", "5px");
+        });
+    });
+    $(document).ready(function(){1
+        $("#arrow_01").click(function(){
+            $("#specs_01").fadeTo("slow" , 0);
+            $("#specs_visual_01").fadeTo("slow" , 0);
+            $("#specs_03").fadeTo("slow" , 0);
+            $("#specs_visual_03").fadeTo("slow" , 0);
+            $("#specs_02").fadeTo("slow" , 1);
+            $("#specs_visual_02").fadeTo("slow" , 1);
+            $("#arrow_01").hide();
+            $("#arrow_02").show();
+            $("#arrow_03").hide();
+            $("#specs_thumb_01").css("border-width", "0px");
+            $("#specs_thumb_02").css("border-width", "5px");
+            $("#specs_thumb_03").css("border-width", "0px");
+        });
+    });
+    $(document).ready(function(){
+        $("#arrow_02").click(function(){
+            $("#specs_01").fadeTo("slow" , 0);
+            $("#specs_visual_01").fadeTo("slow" , 0);
+            $("#specs_02").fadeTo("slow" , 0);
+            $("#specs_visual_02").fadeTo("slow" , 0);
+            $("#specs_03").fadeTo("slow" , 1);
+            $("#specs_visual_03").fadeTo("slow" , 1);
+            $("#arrow_01").hide();
+            $("#arrow_02").hide();
+            $("#arrow_03").show();
+            $("#specs_thumb_01").css("border-width", "0px");
+            $("#specs_thumb_02").css("border-width", "0px");
+            $("#specs_thumb_03").css("border-width", "5px");
+        });
+    });
+    $(document).ready(function(){
+        $("#arrow_03").click(function(){
+            $("#specs_02").fadeTo("slow" , 0);
+            $("#specs_visual_02").fadeTo("slow" , 0);
+            $("#specs_03").fadeTo("slow" , 0);
+            $("#specs_visual_03").fadeTo("slow" , 0);
+            $("#specs_01").fadeTo("slow" , 1);
+            $("#specs_visual_01").fadeTo("slow" , 1);
+            $("#arrow_01").show();
+            $("#arrow_02").hide();
+            $("#arrow_03").hide();
+            $("#specs_thumb_01").css("border-width", "5px");
+            $("#specs_thumb_02").css("border-width", "0px");
+            $("#specs_thumb_03").css("border-width", "0px");
+        });
+    });
+    $(document).ready(function(){
+        $(".portfolio_01").mouseover(function(){
+            $(".holder_01").css("opacity", "1");
+        });
+    });
+    $(document).ready(function(){
+        $(".portfolio_01").mouseout(function(){
+            $(".holder_01").css("opacity", "0");
+        });
+    });
+    $(document).ready(function(){
+        $(".portfolio_02").mouseover(function(){
+            $(".holder_02").css("opacity", "1");
+        });
+    });
+    $(document).ready(function(){
+        $(".portfolio_02").mouseout(function(){
+            $(".holder_02").css("opacity", "0");
+        });
+    });
+    $(document).ready(function(){
+        $(".portfolio_03").mouseover(function(){
+            $(".holder_03").css("opacity", "1");
+        });
+    });
+    $(document).ready(function(){
+        $(".portfolio_03").mouseout(function(){
+            $(".holder_03").css("opacity", "0");
+        });
+    });
+    $(document).ready(function() {
+        /* Every time the window is scrolled ... */
+        $(window).scroll( function(){
+            /* Check the location of each desired element */
+            $('.levelps').each( function(i){
+                var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                /* If the object is completely visible in the window, fade it in */
+                if( bottom_of_window > bottom_of_object ){
+                    $('.levelps').animate({'height':'200'},1000);
+                    $('.levelai').animate({'height':'200'},1000);
+                    $('.levelxd').animate({'height':'200'},1000);
+                    $('.levelae').animate({'height':'180'},1000);
+                    $('.levelpr').animate({'height':'120'},1000);
+                    $('.levelid').animate({'height':'60'},1000);
+                    $('.levelhtml').animate({'height':'210'},1000);
+                    $('.leveljs').animate({'height':'120'},1000);
+                    $('.levelphp').animate({'height':'60'},1000);
+                }
+            });
+        });
+    });
+    </script>
+</head>
+<body data-ng-app="demoApp">
+<div id="fakeLoader"></div>
+<script type="text/javascript">
+    $("#fakeLoader").fakeLoader({
+        timeToHide:4000, //Time in milliseconds for fakeLoader disappear
+        zIndex:999, // Default zIndex
+        //spinner:"spinner1",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7' 
+        bgColor:"#0e0e0e", //Hex, RGB or RGBA colors
+        imagePath:"images/preloader.gif" //If you want can you insert your custom image
+});
+</script>
+<div id="container">
+    <div id="meteorites">
+        <div id="meteorite_01" data-3300="top: 4900px; left: -200px;" data-4800="top: 4500px; left: 700px;"></div>
+        <div id="meteorite_02" data-3200="top: 4400px; left: 450px; transform: rotate(0deg);" data-4700="top: 4200px; left: 950px; transform: rotate(45deg);"></div>
+        <div id="meteorite_03" data-3000="top: 4110px; left: 850px; transform: rotate(0deg);" data-4600="top: 4010px; left: 1150px; transform: rotate(-90deg);"></div>
+        <div id="meteorite_04" data-2800="top: 3770px; left: 1330px; transform: rotate(-20deg);" data-4600="top: 3670px; left: 1430px; transform: rotate(30deg);"></div>
+        <div id="meteorite_05" data-2800="top: 3750px; left: 1500px;" data-4600="top: 3650px; left: 1650px;"></div>
+        <div id="meteorite_06" data-2800="top: 3800px; left: 1520px; transform: rotate(-20deg);" data-4600="top: 3500px; left: 1800px; transform: rotate(20deg);"></div>
+        <div id="meteorite_07" data-2800="top: 3320px; left: 2130px;" data-4600="top: 3220px; left: 2230px;"></div>
+        <div id="exoplanet" data-2800="top: 3700px;" data-5500="top: 3400px;"></div>
+    </div>
+    <div id="planets">
+        <div id="planet_01" data-7500="top: 12000px;" data-11500="top: 9500px;"></div>
+        <div id="planet_02" data-7500="top: 11100px;" data-11500="top: 9400px;"></div>
+        <div id="planet_03" data-7500="top: 8400px;" data-11500="top: 7050px;"></div>
+        <div id="planet_04" data-7500="top: 6400px;" data-11500="top: 5800px;"></div>
+        <div id="planet_05" data-7500="top: 5100px;" data-11500="top: 5000px;"></div>
+    </div>
+    <div data-ks-stereo></div>
+    <script type="text/ng-template" id="/app/components/ks-music-control.html">
+        <button data-ng-click="toggle()" data-ng-disabled="'loading' === getStatus() || 'error' === getStatus()" class="ks-music-control">
+                          <div data-ng-switch="getStatus()">
+                            <div data-ng-switch-when="loading">
+                              <div class="loading">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>2
+                              </div>
+                            </div>
+                            <div data-ng-switch-when="paused">
+                              <svg width="22" height="22">
+                                <polygon points="0, 0 22, 11 0, 22"></polygon>
+                              </svg>
+                            </div>
+                            <div data-ng-switch-when="playing">
+                              <div class="pause">
+                                <div></div>
+                                <div></div>
+                              </div>
+                            </div>
+                            <div data-ng-switch-when="error">
+                              <div class="error">Error</div>
+                            </div>
+                          </div>
+        </button>
+    </script>
+    <script type="text/ng-template" id="/app/components/ks-stereo.html">
+        <div class="ks-stereo">
+            <div data-ks-icosahedron data-scale="vm.stereo.scale" data-color="vm.stereo.color"></div>
+            <div class="ks-control-icosahedron" data-ks-music-control></div>
+        </div>
+    </script>
+    <div class="spaceship" data-700="opacity: 1; transform: scale(1)" data-800="opacity: 0.3; transform: scale(.5)" data-6000="opacity: 0;" data-6200="opacity: 0;"></div>
+    <div class="header">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo"></div>
+                    <div class='solar-syst'>
+                        <div class='mercury'></div>
+                        <div class='venus'></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br/>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="paragraph pleft">
+                        A mind’s universe is everything.<br/>
+                        From the simplest dot to the most complex system,<br/>
+                        without vision, this universe is void.
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="paragraph pright">
+                        Life is about the journey.<br/>
+                        Learn the basics. Get better. Master the discipline.<br/>
+                        In the end we’re all stardust.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="icon_triangle"></div>
+                </div>
+            </div>
+    </div>
+    <div class="specs">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="specs_bloc">
+                        <div class="specs_thumbs">
+                            <a href=""><div id="specs_thumb_01">Graphic design</div></a>
+                            <a href=""><div id="specs_thumb_02">Web design</div></a>
+                            <a href=""><div id="specs_thumb_03">UX design</div></a>
+                        </div>
+                        <div id="specs_visual_01"></div>
+                        <div id="specs_01">
+                            <div class="specs_title">
+                                Heavy<br />
+                                graphic<br />
+                                design.
+                            </div>
+                            <div class="specs_txt">
+                                As a graphic designer, you have the ability to infuse life out of the void, to talk to anyone’s deepest feelings, to create worlds that would never be seen by the living.
+                                <br /><br />
+                                This is graphic design true power.
+                            </div>
+                            <a href=""><div id="arrow_01"></div></a>
+                        </div>
+                        <div id="specs_visual_02"></div>
+                        <div id="specs_02">
+                            <div class="specs_title">
+                                Impactful<br />
+                                Digital<br />
+                                design.
+                            </div>
+                            <div class="specs_txt">
+                                Web and Mobile Design have a genuine hability to convert ideas into awesome visual and interactive concepts. There is something captivating about digital design.
+                                <br /><br />
+                                Between Art and Maths, it's a sweet spot hard to master.
+                            </div>
+                            <a href=""><div id="arrow_02"></div></a>
+                        </div>
+                        <div id="specs_visual_03"></div>
+                        <div id="specs_03">
+                            <div class="specs_title">
+                                User<br />
+                                Experience<br />
+                                design.
+                            </div>
+                            <div class="specs_txt">
+                                The best way to turn a complex process into a friction-free experience is like a great magic trick: <br />You don't recognize it because it looks good, but because you didn't even notice it.
+                            </div>
+                            <a href=""><div id="arrow_03"></div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="portfolio">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio_thumbs">
+                        <div class="title">
+                            <div class="title_num">01.</div><div class="title_txt">Portfolio</div>
+                            <div class="paragraph">
+                                What art offers is space.<br />
+                                A certain breathing room for the spirit.<br /><br />
+                            </div>
+                            <div class="author">- John Updike -</div>
+                        </div>
+                            <div class="portfolio_01">
+                                <div class="holder_01">
+                                    <div class="glitch-img" style="background-image: url('images/portfolio_01.jpg')"></div>
+                                </div>
+                            </div>
+                        </a>
+                            <div class="portfolio_02">
+                                <div class="holder_02">
+                                    <div class="glitch-img" style="background-image: url('images/portfolio_02.jpg')"></div>
+                                </div>
+                            </div>
+                        </a>
+                            <div class="portfolio_03">
+                                <div class="holder_03">
+                                    <div class="glitch-img" style="background-image: url('images/portfolio_03.jpg')"></div>
+                                </div>
+                            </div>
+                        </a>
+                        <br /><a class="button" href="https://www.behance.net/anshuthaku9c7f" target="_blank">See more</a> 
+                    </div>
+                </div>
+            </div>
+    </div>
+   <div class="experience">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title title02">
+                        <div class="title_num">02.</div><div class="title_txt">Work Experience</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="experience_content">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="exp_holder">
+                        <div class="date_box">
+                                <div class="date_txt">2019</div>
+                            </div>
+                        <div class="exp_content exp_left exp_top">
+                                <span class="exp_title">Head of Design</span><br />
+                                <span class="exp_work">CSI-JUET</span>
+                            </div>
+
+                            <div class="exp_content exp_right exp_mid">
+                                <span class="exp_title">UI Developer</span><br />
+                                <span class="exp_work">NEC Technologies India Pvt. Ltd.</span>
+                            </div>
+
+                            <div class="date_box">
+                                <div class="date_txt">2018</div>
+                            </div>
+                            
+                            <div class="exp_content exp_left exp_mid">
+                                <span class="exp_title">UI/UX Designer</span><br />
+                                <span class="exp_work">Pix Labs</span>
+                            </div>
+                            
+                            <div class="exp_content exp_right exp_mid">
+                                <span class="exp_title">Intern</span><br />
+                                <span class="exp_work">CEBS Worldwide</span>
+                            </div>
+                            <div class="date_box">
+                                <div class="date_txt">2017</div>
+                            </div>
+                            <div class="exp_content exp_left exp_mid">
+                                <span class="exp_title">Graphic Designer</span><br />
+                                <span class="exp_work">SAS Consulting</span>
+                            </div>
+                            
+                            <div class="exp_content exp_right exp_mid">
+                                <span class="exp_title">Intern</span><br />
+                                <span class="exp_work">SAS Consulting</span>
+                            </div>
+                            <div class="date_box">
+                                <div class="date_txt">2017</div>
+                            </div>
+                           </div>
+                        <a class="icon_circle" href="https://www.linkedin.com/in/anshu-kumar-03157a140/" target="_blank"><div class="icon_circle"></div></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="education">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title title03">
+                        <div class="title_num">03.</div><div class="title_txt">Education</div>
+                    </div>
+                </div>
+            </div>
+           <div class="row">
+                <div class="col-lg-12">
+                    <div class="education_content">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="exp_holder">
+                            <div class="date_box">
+                                <div class="date_txt">2020</div>
+                            </div>
+                            <div class="exp_content exp_left exp_mid">
+                                <span class="exp_title">B-Tech</span><br />
+                                <span class="exp_work">J.U.E.T</span>
+                            </div>
+                            <div class="date_box">
+                                <div class="date_txt">2016</div>
+                            </div>
+                            <div class="exp_content exp_right exp_mid">
+                                <span class="exp_title">Higher Secondary</span><br />
+                                <span class="exp_work">O.S.S.S</span>
+                            </div>
+                            <div class="date_box">
+                                <div class="date_txt">2014</div>
+                            </div>
+                            <div class="exp_content exp_left exp_mid">
+                                <span class="exp_title">Secondary School</span><br />
+                                <span class="exp_work">The J.P.S</span>
+                            </div>
+                            <div class="date_box">
+                                <div class="date_txt">2002</div>
+                            </div>
+                        </div>
+                        <a class="icon_circle" href="https://www.linkedin.com/in/anshu-kumar-03157a140/" target="_blank"><div class="icon_circle"></div></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="astronaut">
+        <video id="v0" poster="images/" autobuffer="autobuffer" preload="preload">
+             <source type="video/webm" src="images/astronaut_01.webm">
+        </video>
+    </div>
+    <div class="skills">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title title04 titledark">
+                        <div class="title_num">04.</div><div class="title_txt">Skills</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="skills_content">
+                        <div class="skill">
+                            <div class="skill_holder">
+                                <div class="levelps skill_level hideme"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name ps"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill_holder">
+                                <div class="levelai skill_level"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name ai"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill_holder">
+                                <div class="levelxd skill_level"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name xd"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill_holder">
+                                <div class="levelae skill_level"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name ae"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill_holder">
+                                <div class="levelpr skill_level"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name pr"></div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill_holder">
+                                <div class="levelid skill_level"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name id"></div>
+                        </div>
+                        <div class="skill" style="margin-left: 50px;">
+                            <div class="skill_holder">
+                                <div class="levelhtml skill_level"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name">HTML<br />CSS</div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill_holder">
+                                <div class="leveljs skill_level"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name">JS</div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill_holder">
+                                <div class="levelphp skill_level"></div>
+                                <div class="skill_line"></div>
+                            </div>
+                            <div class="skill_name">PHP<br />SQL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="hobbies">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title title05">
+                    <div class="title_num">05.</div><div class="title_txt">Hobbies/Misc</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hobbies_pic"></div>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-lg-12">
+                <div class="hobbies_content">
+                    <span class="lang">Hindi</span><br />
+                <span class="lang_desc">Native speaker</span><br /><br />
+                <span class="lang">English</span><br />
+                <span class="lang_desc">Fluent</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="portrait_content">
+                    <div class="whoiam">
+                        <span class="whoiam_title">Get in<br /> touch</span><br /><br />
+                        <span class="whoiam_txt">
+                            I'm from India,<br /> In this beautiful world since 1998.<br /><br />
+                            <a href="https://www.linkedin.com/in/anshu-kumar-03157a140/" target="_blank" class="link_whoiam">LinkedIn</a><br />
+                            <a href="mailto:anshuthakur1997@gmail.com" class="link_whoiam">anshuthakur1997@gmail.com</a><br />
+                            <a class="link_whoiam">+917903666159</a>
+                        </span>
+                    </div>
+                    <div class="portrait"></div>
+                </div>
+                <div class="dive"></div>
+                <div class="footer">Soundtrack by Justin Bieber</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/videoscroll.js"></script>
+<div id="awwwards" class="honorable white right">
+</div>
+</body>
+</html>
